@@ -216,7 +216,7 @@ export default function Portfolio() {
         </div>
 
         <div className="md:absolute top-0 flex flex-col items-center justify-center right-0 w-full md:w-1/2 h-full bg-linear-to-l md:from-[#646464] md:to-transparent opacity-50 pointer-events-none">
-            <img src="/images/image3.jpg" className="w-80 h-80 rounded-full object-cover" />
+            <img src="/images/me.png" className="w-80 h-80 rounded-full object-cover" />
              <span className="inline-block font-bold mt-10 text-sm text-[#00ff88] uppercase tracking-[2px] mb-6 px-4 py-2 border border-[#00ff88] rounded-sm animate-[fadeIn_1s_ease-out_0.3s_backwards]">
               Oluwasusi Stephen Olayemi
             </span>
