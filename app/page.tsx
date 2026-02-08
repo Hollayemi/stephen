@@ -61,7 +61,7 @@ export default function Portfolio() {
     {
       id: 2,
       title: 'BinaryLabs',
-      link: "https:binarylabshq.com",
+      link: "https://binarylabshq.com",
       image: "/images/binarylabs.png",
       description: 'Driven by a passion for revolutionizing the digital landscape and creating solutions that empower businesses and individuals alike. ',
       tags: ['Web Development', 'Visitors Tracking', 'Logistics'],
@@ -134,7 +134,7 @@ export default function Portfolio() {
       id: 12,
       title: 'Progress Intellectual School',
       image: "/images/progress.png",
-      link: "https://piso.vercel.app/",
+      link: "https://piso-demo.vercel.app/",
       description: 'Progress Intellectual School is committed to providing a nurturing environment that fosters academic excellence and personal growth. Our curriculum focuses on developing well-rounded individuals who are equipped to make a positive impact on the world.',
       tags: ['School', 'Portals', 'Javascript'],
     },
@@ -249,11 +249,12 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mb-16">
             {projects.map((project, index) => (
               <a
+               key={project.id}
                 target='_blank'
                 href={project.link}
               >
               <div
-                key={project.id}
+               
                 id={`project-${project.id}`}
                 data-reveal
                 className={`bg-[#141414] border border-[#2a2a2a] rounded-lg overflow-hidden cursor-pointer transition-all duration-700 hover:-translate-y-2.5 hover:border-[#00ff88] hover:shadow-[0_20px_60px_rgba(0,255,136,0.15)] group ${
