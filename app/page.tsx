@@ -131,7 +131,7 @@ export default function Portfolio() {
       tags: ['Stores', 'Locations', 'Typescript'],
     },
     {
-      id: 12,
+      id: 11,
       title: 'Progress Intellectual School',
       image: "/images/progress.png",
       link: "https://piso-demo.vercel.app/",
