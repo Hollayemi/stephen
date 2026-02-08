@@ -24,6 +24,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>Oluwasusi Stephen Olayemi</title>
+      <meta name="description" content=" I design and build beautiful, functional websites that merge creativity with purpose.
+              Every project is an opportunity to push boundaries and create something memorable." />
+      <meta name="keywords" content="web design, frontend development, UI/UX design, portfolio, creative agency" />
+      <meta name="author" content="Oluwasusi Stephen Olayemi" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
